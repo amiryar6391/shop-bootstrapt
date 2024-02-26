@@ -1,0 +1,91 @@
+ /* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@font-face {
+    font-family:'vazir';
+    src: url('../fonts/Vazir.ttf');
+}
+body{
+    font-family: 'vazir';
+    font-size: 1rem;
+}
+.lalezar{
+    font-family: 'lalezar';
+}
+.course-list{
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    padding: 10px 0px;
+}
+
+.course-list-item:hover{
+    background-color: rgb(248, 247, 247);
+}
+.tn{
+    text-decoration: none;
+    color: black;
+}
+.shadows{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.header-intro{
+    height: 700px;
+    background-image: url('../images/header/header-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 65px;
+}
+.accordion-button:not(.collapsed) {
+    background-color: unset;
+    box-shadow: none;
+}
+.link-service{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.box-service.border-primary:hover{
+    background-color: #0d6efd;
+}
+.box-service.border-success:hover{
+    background-color:#198754 ;
+}
+.box-service.border-warning:hover{
+    background-color:#ffc107;
+}
+.box-service:hover{
+    color: white;
+}
+.box-service:hover .link-service{
+    color: white !important;
+}
+.box-prices{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.5s;
+}
+.box-prices a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.box-prices:hover{
+    transform: scale(1.06);
+
+
+}
+footer{
+    background-color: #f2f5fc;
+}
+
+
+@media screen and (min-width:768px) {
+    .position-md-fixed{
+        position:fixed;
+    }
+    
+}
